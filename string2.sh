@@ -1,6 +1,7 @@
 string_var="Hi Team, My name is  Simon Legah, working in MLT,  GTA "
 #echo "The value of string_var value is: " ${string_var}
 echo  ${string_var}
+echo ${string_var:21}   # This should display the string excluding the first 20 characters.
 echo  $string_var
 echo "The length of the string is: " ${#string_var}
 echo ${string_var:20:14}  # This should display the string values between  the first 20 characters and the last 14.
